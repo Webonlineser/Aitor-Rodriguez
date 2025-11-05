@@ -26,6 +26,13 @@ body {
 .navbar {
   z-index: 1000;
 }
+#a-nav {  
+  font-family: "BBH Sans Bartle", sans-serif;
+  font-size: 10px;
+  letter-spacing: 1px;  
+    text-shadow: 2px 2px 5px blue;
+
+}
 
 /* Título dentro del navbar */
 .navbar-brand {
@@ -220,6 +227,11 @@ a:link {
   color: white;
   height: 100px;
   font-size: 22px;
+}
+.texto_booking{
+  color: white;
+  font-size: 20px;
+  text-align: center;
 }
 
 #redes_ingles {
@@ -423,4 +435,10 @@ footer {
 }
 .foto_2:hover {
   transform: scale(1.05);
+}
+
+
+.video_2{
+  margin-top: 50px ;
+  margin-bottom: 50px;
 }
