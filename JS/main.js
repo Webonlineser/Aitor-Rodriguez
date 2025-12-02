@@ -14,3 +14,4 @@ document.addEventListener('DOMContentLoaded', () => {
     document.addEventListener('click', () => segundoVideo.play());
   });
 });
+  
