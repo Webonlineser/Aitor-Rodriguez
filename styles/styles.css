@@ -1,0 +1,481 @@
+/* ============================================================
+   🔹 RESET GENERAL
+   ============================================================ */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ============================================================
+   🔹 ESTILOS GENERALES DEL BODY
+   ============================================================ */
+body {
+  background-color: black;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* ============================================================
+   🔹 NAVBAR (Bootstrap)
+   ============================================================ */
+.navbar.bg-dark {
+  background-color: #000 !important; /* negro puro */
+}
+.navbar {
+  z-index: 1000;
+}
+#a-nav {  
+  font-family: "BBH Sans Bartle", sans-serif;
+  font-size: 10px;
+  letter-spacing: 1px;  
+    text-shadow: 2px 2px 5px blue;
+
+}
+
+/* Título dentro del navbar */
+.navbar-brand {
+  font-size: 0.8rem;
+  text-shadow: 2px 2px 5px blue;
+  color: white;
+  font-family: "BBH Sans Bartle", sans-serif;
+}
+
+/* ============================================================
+   🔹 TITULOS Y TEXTOS GENERALES
+   ============================================================ */
+h2 {
+  font-family: "BBH Sans Bartle", sans-serif;
+  font-style: normal;
+  color: white;
+}
+
+p {
+  line-height: 30px;
+}
+
+span {
+  text-shadow: 2px 2px 5px blue;
+  width: 100%;
+}
+
+/* ============================================================
+   🔹 HOME
+   ============================================================ */
+.box_logo_home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.logo {
+  width: 320px;
+}
+
+.box_foto_home {
+  display: flex;
+  justify-content: center;
+}
+
+.foto {
+  min-width: 350px;
+  max-width: 600px;
+  height: auto;
+}
+
+.titulo_foto {
+  color: white;
+  text-align: center;
+  margin: 20px 0;
+  padding: 10px;
+  font-size: 22px;
+}
+
+.box_texto_home {
+  color: white;
+  text-align: center;
+  margin: 20px 0;
+  padding: 10px;
+}
+
+/* ============================================================
+   🔹 SECCIÓN BIOGRAFÍA
+   ============================================================ */
+.sobre_mi {
+  color: white;
+  text-align: center;
+  margin: 20px 0;
+  padding: 10px;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.sobre_mi h2 {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 30px 0 20px;
+  text-shadow: 2px 2px 5px blue;
+}
+
+.texto_bio {
+  color: white;
+  text-align: justify;
+  margin: 20px 0;
+  padding: 10px;
+}
+
+/* Galería biografía */
+.fotos_bio {
+  display: flex;
+  flex-direction: column; /* mobile first */
+  gap: 10px;
+  width: 100%;
+  padding: 10px;
+}
+
+.fotos_bio div {
+  width: 100%;
+  aspect-ratio: 1 / 1; /* cuadradas */
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.fotos_bio img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: inherit;
+}
+
+/* ============================================================
+   🔹 CARRUSEL DE IMÁGENES
+   ============================================================ */
+.carouselExampleFade {
+  margin: 20px 0;
+}
+
+.carrusel_img_1,
+.carrusel_img_2,
+.carrusel_img_3 {
+  height: 400px;
+  object-fit: cover;
+}
+
+/* ============================================================
+   🔹 ENLACES
+   ============================================================ */
+a:link {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* ============================================================
+   🔹 SECCIÓN EVENTOS
+   ============================================================ */
+.proximos_eventos {
+  color: white;
+  text-align: center;
+  margin: 20px 0;
+  padding: 10px;
+}
+
+.proximos_eventos_title {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 30px 0;
+  text-shadow: 2px 2px 5px blue;
+}
+
+.box_proximos {
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto 50px;
+  justify-content: center;
+}
+
+/* ============================================================
+   🔹 SECCIÓN MÚSICA / SETS
+   ============================================================ */
+.h2_musica {
+  width: 100%;
+  font-size: 22px;
+  margin-top: 100px;
+  font-family: "BBH Sans Bartle", sans-serif;
+  text-align: center;
+}
+
+.h2_Sets {
+  text-shadow: 2px 2px 5px red;
+  margin-top: 50px;
+  font-size: 22px;
+}
+
+/* ============================================================
+   🔹 SECCIÓN REDES
+   ============================================================ */
+.h2_redes {
+  font-family: "BBH Sans Bartle", sans-serif;
+  text-align: center;
+  text-shadow: 2px 2px 5px blue;
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  height: 100px;
+  font-size: 22px;
+}
+.texto_booking{
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+#redes_ingles {
+  font-family: "BBH Sans Bartle", sans-serif;
+  text-align: center;
+  margin: 20px 0;
+  text-shadow: 2px 2px 5px blue;
+}
+
+.seccion_redes {
+  margin-top: 30px;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  font-size: 22px;
+}
+
+.seccion_redes li {
+  list-style: none;
+  margin: 10px 0;
+  color: white;
+  font-family: "BBH Sans Bartle", sans-serif;
+}
+
+.seccion_redes li:hover {
+  background-color: rgb(82, 82, 155);
+  border-radius: 10px;
+}
+
+.seccion_redes li svg {
+  margin-right: 10px;
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+}
+
+.lista_a{
+  font-size: 12px;
+}
+
+/* ============================================================
+   🔹 VIDEOS
+   ============================================================ */
+.video_redes,
+.video_2 {
+  width: 100%;
+  height: auto;
+  margin: 30px auto 20px;
+  display: block;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.video_redes {
+  max-width: 600px;
+}
+
+.video_2 {
+  max-width: 800px;
+  margin-top: 100px;
+}
+
+/* ============================================================
+   🔹 FOOTER
+   ============================================================ */
+footer {
+  background-color: black;
+  color: #fff;
+  padding: 40px 20px;
+  font-family: sans-serif;
+  margin-top: 100px;
+}
+
+.footer-contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.footer-col {
+  flex: 1 1 250px;
+  min-width: 200px;
+}
+
+.footer-col h3 {
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+  border-bottom: 2px solid #555;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.footer-col p {
+  color: #ccc;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.footer-col a {
+  display: block;
+  color: #ccc;
+  text-decoration: none;
+  font-size: 0.95rem;
+  line-height: 1.8;
+}
+
+.footer-col a:hover {
+  color: #fff;
+}
+
+.footer-copy {
+  text-align: center;
+  border-top: 1px solid #333;
+  margin-top: 30px;
+  padding-top: 10px;
+  font-size: 0.85rem;
+  color: #aaa;
+}
+
+/* ============================================================
+   🔹 MEDIA QUERIES
+   ============================================================ */
+
+/* Tablets y escritorios */
+@media (min-width: 768px) {
+
+  /* Agrandar todos los títulos */
+  h2,
+  .sobre_mi h2,
+  .h2_musica,
+  .h2_Sets,
+  .proximos_eventos_title,
+  .h2_redes,
+  .seccion_redes {
+    font-size: 35px;
+  }
+
+  /* Galería en filas */
+  .fotos_bio {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .fotos_bio div {
+    width: calc(33.333% - 10px);
+    aspect-ratio: 1 / 1;
+  }
+
+  .fotos_bio div:last-child img {
+    object-position: center top;
+  }
+
+  /* Redes en fila */
+  .redes_lista {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-around;
+  }
+
+  .lista_a {
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+    font-family:  "BBH Sans Bartle", sans-serif;
+  }
+}
+
+/* Footer responsive */
+@media (max-width: 768px) {
+  .footer-contenedor {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-col {
+    max-width: 400px;
+  }
+}
+
+/* ============================================================
+   🔹 IMÁGENES SECUNDARIAS
+   ============================================================ */
+.foto_2 {
+  display: block;
+  margin: 0 auto 100px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+.foto_2:hover {
+  transform: scale(1.05);
+}
+
+
+.video_2{
+  margin-top: 50px ;
+  margin-bottom: 50px;
+}
+
+
+.video_yt{
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+}
+
+.video_yt h2 {
+
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom:60px;
+
+}
+
+.box_yt{
+margin: 0 auto;
+
+}
+
+.sunset{
+background: linear-gradient(270deg, #ff0080, #7928ca, #00c6ff);
+  background-size: 600% 600%;
+  animation: gradientMove 6s ease infinite;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
