@@ -441,4 +441,44 @@ footer {
 .video_2{
   margin-top: 50px ;
   margin-bottom: 50px;
+<<<<<<< HEAD
+=======
+}
+
+
+.video_yt{
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+}
+
+.video_yt h2 {
+
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom:60px;
+
+}
+
+.box_yt{
+margin: 0 auto;
+
+}
+
+.sunset{
+background: linear-gradient(270deg, #ff0080, #7928ca, #00c6ff);
+  background-size: 600% 600%;
+  animation: gradientMove 6s ease infinite;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+>>>>>>> master
 }
