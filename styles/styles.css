@@ -353,6 +353,32 @@ footer {
   padding-top: 10px;
   font-size: 0.85rem;
   color: #aaa;
+
+}
+
+
+
+
+.video_yt{
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+}
+
+.video_yt h2 {
+
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom:50px;
+  font-size: 15px;
+}
+
+.box_yt iframe{
+margin: 0 auto;
+width: 400px;
+
 }
 
 /* ============================================================
@@ -372,7 +398,14 @@ footer {
   .seccion_redes {
     font-size: 35px;
   }
+  .video_yt h2 {
+    font-size: 35px;
+  }
+.box_yt iframe{
+margin: 0 auto;
+width: 600px;
 
+}
   /* Galería en filas */
   .fotos_bio {
     flex-direction: row;
@@ -441,29 +474,6 @@ footer {
 .video_2{
   margin-top: 50px ;
   margin-bottom: 50px;
-<<<<<<< HEAD
-=======
-}
-
-
-.video_yt{
-margin: 0 auto;
-display: flex;
-flex-direction: column;
-justify-content: center;
-
-}
-
-.video_yt h2 {
-
-  text-align: center;
-  margin-top: 30px;
-  margin-bottom:60px;
-
-}
-
-.box_yt{
-margin: 0 auto;
 
 }
 
@@ -480,5 +490,5 @@ background: linear-gradient(270deg, #ff0080, #7928ca, #00c6ff);
   0% { background-position: 0% 50%; }
   50% { background-position: 100% 50%; }
   100% { background-position: 0% 50%; }
->>>>>>> master
+
 }
