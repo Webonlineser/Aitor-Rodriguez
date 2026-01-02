@@ -15,3 +15,17 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
   
+
+
+
+const imgs = document.querySelectorAll("img");
+
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("show");
+    }
+  });
+});
+
+imgs.forEach(img => observer.observe(img));
